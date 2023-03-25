@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from "./core/core.module";
@@ -9,22 +8,24 @@ import { MedicineHomeComponent } from './components/medicine-home/medicine-home.
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import  { HttpClientModule} from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TopDealsComponent } from './components/top-deals/top-deals.component';
-
-
+import { TopDealsByCategoryComponent } from './components/top-deals-by-category/top-deals-by-category.component';
+import { ViewProductDetailsComponent } from './components/view-product-details/view-product-details.component';
+import { TopDealsHeaderComponent } from './components/top-deals-header/top-deals-header.component';
 
 @NgModule({
-    declarations: [
+    declarations:[
         AppComponent,
         HomeComponent,
         MedicineHomeComponent,
-        TopDealsComponent
-         
-        
-    ],
-    providers: [],
-    bootstrap: [AppComponent],
+        TopDealsComponent,
+        TopDealsByCategoryComponent,
+        ViewProductDetailsComponent,
+        TopDealsHeaderComponent,
+       
+        ],
+    
     imports: [
         BrowserModule,
         AppRoutingModule,
@@ -33,10 +34,10 @@ import { TopDealsComponent } from './components/top-deals/top-deals.component';
         CarouselModule,
         HttpClientModule,
         FormsModule ,
-        
-        
-        
-
-    ]
+        ReactiveFormsModule
+         ],
+         providers: [],
+    
+    bootstrap: [AppComponent],
 })
 export class AppModule { }
