@@ -1164,5 +1164,185 @@
       "isMobNoVerified": false,
       "id": 4
     }
+  ],
+  "orders": [
+    {
+      "customerName": "Ritu",
+      "mobileNo": "9000000",
+      "gender": true,
+      "dateOfBirth": "2023-03-01",
+      "emailId": "test@123gmail.com",
+      "address": {
+        "line1": "1234",
+        "line2": "area",
+        "landmark": "jhgjhg",
+        "city": "sangamaner",
+        "state": "Maharashtra",
+        "pincode": "422605"
+      },
+      "products": [
+        {
+          "productName": "ELECTRAL POWDER 4.4GM",
+          "brand": "FDC LIMITED",
+          "type": "SACHET",
+          "drugCode": 381015,
+          "actualPrice": 4,
+          "discountedPrice": 4,
+          "quantity": 1,
+          "productTotalPrice": 4
+        },
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        },
+        {
+          "productName": "ELECTRAL POWDER 4.4GM",
+          "brand": "FDC LIMITED",
+          "type": "SACHET",
+          "drugCode": 381015,
+          "actualPrice": 4,
+          "discountedPrice": 4,
+          "quantity": 1,
+          "productTotalPrice": 4
+        },
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        }
+      ],
+      "totalAmount": 108,
+      "totalDiscount": 10,
+      "finalAmountToPay": 98,
+      "orderId": 8523896,
+      "id": 1
+    },
+    {
+      "customerName": "Ritu",
+      "mobileNo": "9000000",
+      "gender": true,
+      "dateOfBirth": "2023-03-03",
+      "emailId": "test@123gmail.com",
+      "address": {
+        "line1": "1234",
+        "line2": "area",
+        "landmark": "jhgjhg",
+        "city": "sangamaner",
+        "state": "Maharashtra",
+        "pincode": "422605"
+      },
+      "products": [
+        {
+          "productName": "ELECTRAL POWDER 4.4GM",
+          "brand": "FDC LIMITED",
+          "type": "SACHET",
+          "drugCode": 381015,
+          "actualPrice": 4,
+          "discountedPrice": 4,
+          "quantity": 1,
+          "productTotalPrice": 4
+        },
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        }
+      ],
+      "totalAmount": 54,
+      "totalDiscount": 10,
+      "finalAmountToPay": 44,
+      "orderId": 2463126,
+      "id": 2
+    },
+    {
+      "customerName": "Ritu",
+      "mobileNo": "989898989",
+      "gender": true,
+      "dateOfBirth": "2023-03-03",
+      "emailId": "test@123gmail.com",
+      "address": {
+        "line1": "1234",
+        "line2": "area",
+        "landmark": "jhgjhg",
+        "city": "sangamaner",
+        "state": "Maharashtra",
+        "pincode": "422605"
+      },
+      "products": [
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        }
+      ],
+      "totalAmount": 50,
+      "totalDiscount": 10,
+      "finalAmountToPay": 40,
+      "orderId": 1276985,
+      "id": 3
+    },
+    {
+      "customerName": "Ritu",
+      "mobileNo": "9898989898",
+      "gender": true,
+      "dateOfBirth": "2023-03-01",
+      "emailId": "test@123gmail.com",
+      "address": {
+        "line1": "1234",
+        "line2": "area",
+        "landmark": "jhgjhg",
+        "city": "sangamaner",
+        "state": "Maharashtra",
+        "pincode": "422605"
+      },
+      "products": [
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        },
+        {
+          "productName": "Dettol Antiseptic Liquid Bottle Of 125 Ml",
+          "brand": "RECKITT BENCKISER",
+          "type": "BOTTLE",
+          "drugCode": 1000050509,
+          "actualPrice": 61,
+          "discountedPrice": 61,
+          "quantity": 1,
+          "productTotalPrice": 61
+        }
+      ],
+      "totalAmount": 111,
+      "totalDiscount": 10,
+      "finalAmountToPay": 101,
+      "orderId": 6265509,
+      "id": 4
+    }
   ]
 }

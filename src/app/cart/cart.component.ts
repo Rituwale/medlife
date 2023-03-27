@@ -64,17 +64,22 @@ export class CartComponent implements OnInit{
     productItem.productTotalPrice = Number(productItem.discountedPrice) * Number(productItem.quantity);
     this.calculateTotalPrice();
   }
-  }
+  
 
+  Checkout(){
+    this.cart.setOrderDetails(this.finalOrder);
+    this.router.navigate(['/cart/booking-details'])
+  }
   
-  
+   
+}
 
 
 class Order {
   orderId!:number;
-  fullName!:string;
-  mobileNo!:number;
-  emailId!:string;
+  // fullName!:string;
+  // mobileNo!:number;
+  // emailId!:string;
   address!:Address;
   products!:Product[];
   totalAmount!:number;
@@ -101,3 +106,4 @@ class Product {
   productTotalPrice!:number;
   type!:string
 }
+
