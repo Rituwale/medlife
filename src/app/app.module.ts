@@ -1,18 +1,43 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoreModule } from "./core/core.module";
+import { HomeComponent } from './components/home/home.component';
+import { MedicineHomeComponent } from './components/medicine-home/medicine-home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import  { HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TopDealsComponent } from './components/top-deals/top-deals.component';
+import { TopDealsByCategoryComponent } from './components/top-deals-by-category/top-deals-by-category.component';
+import { ViewProductDetailsComponent } from './components/view-product-details/view-product-details.component';
+import { TopDealsHeaderComponent } from './components/top-deals-header/top-deals-header.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations:[
+        AppComponent,
+        HomeComponent,
+        MedicineHomeComponent,
+        TopDealsComponent,
+        TopDealsByCategoryComponent,
+        ViewProductDetailsComponent,
+        TopDealsHeaderComponent,
+       
+        ],
+    
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        CoreModule,
+        BrowserAnimationsModule ,
+        CarouselModule,
+        HttpClientModule,
+        FormsModule ,
+        ReactiveFormsModule
+         ],
+         providers: [],
+    
+    bootstrap: [AppComponent],
 })
 export class AppModule { }
